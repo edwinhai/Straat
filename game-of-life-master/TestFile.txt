@@ -1,1 +1,1 @@
-version1  additional testing
+version 1.1 with bugfix done
