@@ -10,7 +10,7 @@ import org.junit.Test;
 
 public class WhenYouCreateACell {
 
-    @Test
+    /*@Test
     public void aLiveCellShouldBeRepresentedByAnAsterisk() {
         Cell cell = Cell.fromSymbol("*");
         assertThat(cell, is(LIVE_CELL));
@@ -39,9 +39,11 @@ public class WhenYouCreateACell {
     public void aDeadCellSymbolShouldBeADot() {
         assertThat(Cell.DEAD_CELL.getSymbol(), is("."));
     }
+	*/
 
     @Test
     public void aLiveCellSymbolShouldBeAnAsterisk() {
+		assertFalse(true);
         assertThat(Cell.LIVE_CELL.getSymbol(), is("*"));
     }
 
