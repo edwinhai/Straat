@@ -26,6 +26,7 @@ public class WhenYouPrintAGrid {
                 "..." + NEW_LINE + "";
 
         GridWriter gridWriter = new GridWriter();
+		assertFalse(true);
         String printedGrid = gridWriter.convertToString(gridContents);
         assertThat(printedGrid, is(expectedPrintedGrid));
     }
