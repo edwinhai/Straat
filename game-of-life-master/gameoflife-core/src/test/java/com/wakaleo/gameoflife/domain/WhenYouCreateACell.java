@@ -20,7 +20,7 @@ public class WhenYouCreateACell {
     public void aDeadCellShouldBeRepresentedByADot() {
         Cell cell = Cell.fromSymbol(".");
         assertThat(cell, is(DEAD_CELL));
-		assertTrue(false);
+		assertTrue(true);
 		//test lalalala
     }
 
